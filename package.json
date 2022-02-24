@@ -1,0 +1,49 @@
+{
+  "name": "myflix-client",
+  "version": "1.0.0",
+  "description": "",
+  "default": "src/index.html",
+  "dependencies": {
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "axios": "^0.24.0",
+    "font-awesome": "^4.7.0",
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "moment": "^2.29.1",
+    "object-assign": "^4.1.1",
+    "parcel": "^2.0.0-rc.0",
+    "parcel-bundler": "^1.12.5",
+    "prop-types": "^15.8.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-paginate": "^8.1.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "scheduler": "^0.20.2",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel-build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannesvw3/myFlix-client-react.git"
+  },
+  "author": "Deepthi Rao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johannesvw3/myFlix-client-react"
+  },
+  "homepage": "https://github.com/johannesvw3/myFlix-client-react#readme",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0"
+  }
+}

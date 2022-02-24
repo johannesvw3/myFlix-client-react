@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9cfdf5e1;
+}
+
+body, input, textarea, button{
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,15 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    background-color: rgba($color: #9cfdf5e1, $alpha: 0.5);
+    width: 100vw;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    p {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}

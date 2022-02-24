@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #051861;
+    font-size: 1.6rem;
+    img {
+        height: 60px;
+    }
+    .navbar-collapse{
+        flex-grow: 0 !important;
+    }
+}
