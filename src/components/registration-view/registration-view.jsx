@@ -92,14 +92,14 @@ const RegistrationView = () => {
                                 isInvalid={!!errors.name}
                                 required />
                             <Form.Control.Feedback type="invalid">
-                                {errors.username}
+                                {errors.name}
                             </Form.Control.Feedback>
                         </Form.Group>       
                         <Form.Group controlId="username" className="mb-3">
                             <Form.Label>Username: </Form.Label>
                             <Form.Control 
                                 type="text" 
-                                username="username" 
+                                name="username" 
                                 value={userData.username || ''}
                                 onChange={handleChange}
                                 placeholder="Enter username here"

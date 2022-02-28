@@ -41566,7 +41566,7 @@ const RegistrationView = ()=>{
                                             lineNumber: 94
                                         },
                                         __self: undefined,
-                                        children: errors.username
+                                        children: errors.name
                                     })
                                 ]
                             }),
@@ -41589,7 +41589,7 @@ const RegistrationView = ()=>{
                                     }),
                                     /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Form.Control, {
                                         type: "text",
-                                        username: "username",
+                                        name: "username",
                                         value: userData.username || '',
                                         onChange: handleChange,
                                         placeholder: "Enter username here",
